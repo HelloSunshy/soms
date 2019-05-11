@@ -32,7 +32,7 @@
 
             </div>
             <div class="hd-company">
-                <span style="color:#ed3da1;font-size:32px">太原理工大学高校医务室管理系统</span>
+                <span style="color:#ed3da1;font-size:32px">海南热带海洋学院高校医务室管理系统</span>
 
             </div>
         </div>
@@ -74,13 +74,13 @@
         </h1>
         <h2>
             <span>版权所有 2019-</span>
-            <span>太原理工大学高校医务室管理系统</span>
-            <span>备14010602060240</span>
+            <span>海南热带海洋学院高校医务室管理系统</span>
+            <span>琼ICP备18001963号-1</span>
         </h2>
         <h3>
-            <span>地址:山西省太原市迎泽西大街79号 </span>
-            <span>邮编:030024</span>
-            <span>电话:0351-6010300</span>
+            <span>地址:海南省三亚市育才路1号 </span>
+            <span>邮编:572022</span>
+            <span>电话:0898-88651897</span>
         </h3>
 <h3>
     </div>
