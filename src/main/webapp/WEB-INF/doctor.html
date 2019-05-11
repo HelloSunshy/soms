@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>医师登陆模块</title>
+<style>
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+</style>
+<link href="https://cdn.bootcss.com/twitter-bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<ul>
+
+  <li style ="height:50px;">当前用户：张医生</li>
+  <li style="height:35px">当前时间：2019080</li>
+
+  <li><a class="active" href="#home" style="background-color:red">未处理预约订单</a></li>
+
+  <li><a href="#news">列表</a></li>
+
+   <li><a class="active" href="#home" style="background-color:blue">未完成订单</a></li>
+
+  <li><a href="#news">列表</a></li>
+
+  <li><a class="active" href="#home">完结订单</a></li>
+
+  <li><a  href="#home">列表</a></li>
+
+  <li><a class="active" href="#home">操作</a></li>
+
+   <li><a href="#home">诊断</a></li>
+
+  <li><a href="#home">登出</a></li>
+
+</ul>
+
+<div class="container-fluid" style="width:85%; margin-right:1px">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<table class="table table-bordered table-hover table-condensed">
+				<thead>
+					<tr>
+						<th>
+							学生id
+						</th>
+						<th>
+							姓名
+						</th>
+						<th>
+							描述
+						</th>
+						<th>
+							创建时间
+						</th>
+
+						<th>
+							修改时间
+						</th>
+
+						<th>
+							状态
+						</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							1
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							01/04/2012
+						</td>
+						<td>
+							Default
+						</td>
+						<td>
+							未处理
+						</td>
+						<th>
+							状态
+						</th>
+					</tr>
+					<tr class="success">
+						<td>
+							1
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							01/04/2012
+						</td>
+						<td>
+							Approved
+						</td>
+						<td>
+							未处理
+						</td>
+						<th>
+							状态
+						</th>
+					</tr>
+					<tr class="error">
+						<td>
+							2
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							02/04/2012
+						</td>
+						<td>
+							Declined
+						</td>
+						<td>
+							未处理
+						</td>
+						<th>
+							状态
+						</th>
+					</tr>
+					<tr class="warning">
+						<td>
+							3
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							03/04/2012
+						</td>
+						<td>
+							Pending
+						</td>
+						<td>
+							未处理
+						</td>
+						<th>
+							状态
+						</th>
+					</tr>
+					<tr class="info">
+						<td>
+							4
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							04/04/2012
+						</td>
+						<td>
+							Call in to confirm
+						</td>
+						<td>
+							未处理
+						</td>
+						<th>
+							状态
+						</th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+</body>
+</html>

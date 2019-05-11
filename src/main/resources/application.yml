@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: syl123456
+    url: jdbc:mysql://127.0.0.1/soms?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+  mvc:
+    view:
+      prefix:
+        /WEB-INF/
+      suffix:
+        .jsp
+
+
+  #jackson:
+  #  default-property-inclusion: non_null  #表示如果为空不再给前端传值
+
+
+
+server:
+  context-path: /soms
+
+
+
+
+
